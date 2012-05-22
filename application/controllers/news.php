@@ -6,4 +6,10 @@ class News extends CI_Controller {
 	{
 		$this->load->view('news/index');
 	}
+
+	public function item()
+	{
+		$this->load->view('news/item');
+	}
+
 }

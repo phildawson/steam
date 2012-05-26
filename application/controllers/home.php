@@ -19,7 +19,8 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('index');
+		$data['test'] = 'Hello';
+		$this->load->view('index', $data);
 	}
 }
 

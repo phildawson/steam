@@ -7,6 +7,11 @@ class News extends CI_Controller {
 		$this->load->view('news/index');
 	}
 
+	public function month()
+	{
+		$this->load->view('news/month');
+	}
+
 	public function item()
 	{
 		$this->load->view('news/item');

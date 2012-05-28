@@ -14,7 +14,7 @@ class News extends CI_Controller {
 
 	public function item()
 	{
-		$this->load->view('news/item');
+		$this->load->view('news/itemx');
 	}
 
 	public function conflict()
